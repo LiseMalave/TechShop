@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+:root {
+  --background: #fff;
+  --primary: #2b70e4;
+  --secondary: #02050e;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+  font-family: "Roboto", sans-serif;
+  
+}
+
+body{
+  background-color: var(--background);
+  color: #02050e;
+  
+} 
+
+header{
+   
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px;
+    width: 100%;
+    
+
+
+
+}
+.navbar__list{
+  display: flex;
+  gap: 2vh;
+
+}
+.navbar__list a{
+  color: #02050e;
+}
+.nav-bar{
+    display: flex;
+    align-items: end;
+    padding-bottom: 10px;
+    gap: 10px;
+    font-size: 25px;
+    
+
+    
+}
+
+header img{
+    width: 500px;
+    padding: 8px;
+
+} 
+
+main{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 10px;
+ 
+  
+}
+
+
+
+#hero__container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 0 90px;
+   background-color: #02050e;
+  /* background:url(/img/hero-.png); */
+
+}
+
+#about{
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  
+}
+
+
+
